@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        🦊 Connecté sur : <span id="name">Non-connecté</span>
+    </header>
+
+    <div id="layout">
+        <main id="chat-panel">
+            <div id="chat-header">
+                Connecté sur : <span id="name">Non-connecté</span>
+            </div>
+            <div id="chat"></div>
+        </main>
+
+        <aside id="info-panel">
+            <h2>Infos</h2>
+            <ul id="info-list">
+                <li><span class="label">Heure</span><span id="clock">--:--:--</span></li>
+                <li><span class="label">RAM</span><span id="ram">--</span></li>
+            </ul>
+
+            <br>
+            <h2>Modération</h2>
+            <ul>
+                <li><button id="clear-chat" class="modo-danger">Clear all</button></li>
+
+                <li>
+                    <button id="clear-X-message" class="modo">Clear</button>
+                    <input type="number" id="message-nb-to-clear" min="1" value="1">
+                </li>
+                <li>
+                    <button id="filter-X-message" class="modo">Filter</button>
+                    <input type="number" id="message-nb-to-filter" min="1" value="1">
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/dataPc.js"></script>
+    <script src="js/twitchChat.js"></script>
+    <script src="js/moderation.js"></script>
+
+</body>

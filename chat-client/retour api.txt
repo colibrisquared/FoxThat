@@ -1,0 +1,45 @@
+@badge-info=;badges=broadcaster/1;client-nonce=722d5de227374c0bb1b609a49d55ae30;color=;display-name=TalernSquared;emotes=;first-msg=0;flags=;id=ddc1cda4-dfa0-4709-858d-0f2df6e07aa0;mod=0;returning-chatter=0;room-id=1543558012;subscriber=0;tmi-sent-ts=1791920338175;turbo=0;user-id=1543558012;user-type= :talernsquared!talernsquared@talernsquared.tmi.twitch.tv PRIVMSG #talernsquared :t
+
+
+ // HERRRRRRRRRRRRRRRRRRRRRRRE
+
+ 
+https://developers.google.com/youtube/data/live/streaming-live-chat?hl=fr
+
+
+
+A FULL MESSAGE EXEMPLE (thx mini) ==========
+@badge-info=subscriber/22;
+	Sub combien de mois ??
+badges=subscriber/18,twitch-recap-2023/1;
+	Badges équipés
+color=#FF69B4;
+	Couleur set dans le chat
+display-name=shad0wy_fox_mew;
+	Pseudo
+emote-only=1;
+	Le chat est il en emote only ?
+emotes=emotesv2_a323d318e0a340bd828ad7a080570e69:0-7,21-28,48-55/emotesv2_ed9d88c586c2410b9b0f2e95e08e0c5e:9-19/emotesv2_85f313fa7e7b4ee4b13cb245d989cdb6:30-46;
+	Emotes utilisés
+first-msg=0;
+	Est-ce le 1er message de la personne
+flags=;
+	??
+id=223fa019-95a3-404c-bc08-b1eb32c7c54d;
+	Id message
+mod=0;
+	Est-ce un modo
+returning-chatter=0;
+	Reponse ??? 
+room-id=1004060561;
+	??
+subscriber=1;
+	Est-ce un sub
+tmi-sent-ts=1791920571263;
+	Heure ?
+turbo=0;
+	Est-ce que la personne est turbo
+user-id=636323703;
+	Id user
+user-type= :shad0wy_fox_mew!shad0wy_fox_mew@shad0wy_fox_mew.tmi.twitch.tv PRIVMSG #minikomew :GiveHeal mewmoteSpin GiveHeal mewmoteMinyanspin GiveHeal
+	Some info ??? and message sent after "PRIVMSG"
